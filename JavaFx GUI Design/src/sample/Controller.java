@@ -1,15 +1,15 @@
 package sample;
 
-import javafx.scene.control.Button;
+import javafx.fxml.Initializable;
 
-public class Controller {
+import java.net.URL;
+import java.util.ResourceBundle;
 
-    public Button button;
+public class Controller implements Initializable{
 
-    public void handleButtonClick()
-    {
-        System.out.println("run some code that user can't see...000xxx");
-        button.setText("stop touching me...x+2#");
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        System.out.println("Loading data...");
     }
 }
