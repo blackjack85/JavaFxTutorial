@@ -12,4 +12,9 @@ public class Controller implements Initializable{
     public void initialize(URL location, ResourceBundle resources) {
         System.out.println("Loading data...");
     }
+
+    public void loginButtonClicked()
+    {
+        System.out.println("User logged in...");
+    }
 }
